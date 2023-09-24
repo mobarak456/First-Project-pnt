@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <title>second project</title>
+</head>
+
+<body>
+
+    <div class="arry-btn" id="scroll">
+        <a href=""><span><img src="img/top1.png" width="50px" height="50px" alt=" "></span></a>
+    </div>
+
+
+    <nav class="navbar navbar-dark navbar-expand-md"
+        uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">MOBARAK</a>
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="showcase" class="bg-dark">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-slide-to="0" data-target="#myCarousel" class="active"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-img-1 active">
+                    <div class="container">
+                        <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+                            <h2 class="display-4">Heading One</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse,
+                                voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+                            <a href="#" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-2">
+                    <div class="container">
+                        <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+                            <h2 class="display-4">Heading Two</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse,
+                                voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-3">
+                    <div class="container">
+                        <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+                            <h2 class="display-4">Heading Three</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse,
+                                voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section id="about" class="text-center text-dark ">
+        <div class="container">
+            <div class="row">
+                <div class="col pt-5">
+                    <h2>About Us</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, saepe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="icon-boxes" class="py-5 text-center text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-success">
+                        <div class="card-body">
+                            <i class="fa fa-envelope"></i>
+                            <h3>Lorem Ipsum</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi magni
+                                placeat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <i class="fa fa-car"></i>
+                            <h3>Lorem Ipsum</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi magni
+                                placeat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <i class="fa fa-play"></i>
+                            <h3>Lorem Ipsum</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi magni
+                                placeat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-0 pt-md-4">
+                <div class="col-md-4">
+                    <div class="card bg-warning text-light">
+                        <div class="card-body">
+                            <i class="fa fa-tree"></i>
+                            <h3>Lorem Ipsum</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi magni
+                                placeat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-info">
+                        <div class="card-body">
+                            <i class="fa fa-cart-plus"></i>
+                            <h3>Lorem Ipsum</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi magni
+                                placeat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <i class="fa fa-phone"></i>
+                            <h3>Lorem Ipsum</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi magni
+                                placeat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- about section end -->
+
+    <section id="getstarted" class="py-5 text-center text-light">
+        <div class="dark-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-5 pt-4">
+                        <h3>Are You Ready To Get Started?</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem
+                            laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi
+                            laudantium quod dicta, a quaerat vel, obcaecati!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section start -->
+    <section id="services" class="text-center text-dark ">
+        <div class="container">
+            <div class="row">
+                <div class="col pt-5">
+                    <h2>Services</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, saepe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="price-table" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 my-2">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h3>Service Plan One</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>$59.99/Month</h3>
+                            </div>
+                            <div class="card-text lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature One
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Two
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Three
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Four
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Five
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-muted mb-0">1 Year Plan </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h3>Service Plan Two</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>$59.99/Month</h3>
+                            </div>
+                            <div class="card-text lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature One
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Two
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Three
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Four
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Five
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-muted mb-0">1 Year Plan </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h3>Service Plan Three</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>$59.99/Month</h3>
+                            </div>
+                            <div class="card-text lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature One
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Two
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Three
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Four
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check"></i> Feature Five
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-muted mb-0">1 Year Plan </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <section id="home-video" class="text-center text-light">
+        <div class="dark-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-5 pt-4">
+                        <div uk-lightbox>
+                            <a href="https://youtu.be/aXRS-YzWyJw" class="text-light">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                        <h2 class="mt-3">Bootstrap 4 Crash Course</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-5" uk-lightbox>
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Photo Gallery</h2>
+                    <p class="lead">Check out our photos</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="bg-image hover-zoom">
+                        <a href="img/image1.jpeg">
+                            <img src="img/image1.jpeg" class="img-fluid" alt>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="img/image2.jpeg">
+                            <img src="img/image2.jpeg" class="img-fluid" alt>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="img/image3.jpeg">
+                            <img src="img/image3.jpeg" class="img-fluid" alt>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-0 pt-md-4">
+                <div class="col-md-4">
+                    <div>
+                        <a href="img/image4.jpeg">
+                            <img src="img/image4.jpeg" class="img-fluid" alt>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="img/image5.jpeg">
+                            <img src="img/image5.jpeg" class="img-fluid" alt>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="img/image6.jpeg">
+                            <img src="img/image6.jpeg" class="img-fluid" alt>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- services section start -->
+    <section id="services" class="text-center text-dark ">
+        <div class="container">
+            <div class="row">
+                <div class="col pt-5">
+                    <h2>Contact Us</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, saepe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="text-center">Please fill out this form to contact us</h4>
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="First name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Last name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Phone number" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-block btn-dark" value="Send">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Get In Touch</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, consequuntur.</p>
+                            <h4>Address</h4>
+                            <p>House #100, Uttara, Dhaka</p>
+                            <h4>Email</h4>
+                            <p><a href="" class="__cf_email__" data-cfemail="5a2e3f292e1a3d373b333674393537">mobarak789@gmail.com</a></p>
+                            <h4>Phone</h4>
+                            <p class="mb-2">+880 1948844987</p>
+                            <p>+880 1948844987</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+
+    <section id="copyright" class="text-center py-3 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="lead mb-0">Copyright 2023 &copy; MOBARAK</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <srcipt src="js/uikit-icons.min.js"></srcipt>
+</body>
+
+</html>
